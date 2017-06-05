@@ -15,7 +15,7 @@
 }
 #tigerFront {
     left: 70vw;
-    top: 40vw;
+    top: 20vw;
 }
 #flower>img {
     width: 100vw;
@@ -27,5 +27,5 @@
     width: 25vw;
 }
 #tigerFront>img {
-    width: 36vw;
+    width: 20vw;
 }
