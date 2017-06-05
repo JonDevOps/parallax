@@ -1,3 +1,17 @@
 .floating>div {
     position: absolute;
 }
+#flower {
+    left:0vw;
+    top:0vw;
+}
+#pika {
+    left: 25vw;
+    top: 25vw;
+}
+#flower>img {
+    width:100vw;
+}
+#pika>img{
+    width:20vw;
+}
