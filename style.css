@@ -9,9 +9,23 @@
     left: 25vw;
     top: 25vw;
 }
-#flower>img {
-    width:100vw;
+#sideTiger {
+    left: 35vw;
+    top: 25vw;
 }
-#pika>img{
-    width:20vw;
+#tigerFront {
+    left: 70vw;
+    top: 40vw;
+}
+#flower>img {
+    width: 100vw;
+}
+#pika>img {
+    width: 20vw;
+}
+#sideTiger>img {
+    width: 25vw;
+}
+#tigerFront>img {
+    width: 36vw;
 }
