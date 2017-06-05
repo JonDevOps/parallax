@@ -1,3 +1,7 @@
 "use strict";
 
-console.log('hello world');
+
+function mouseEventHandler() {
+console.log('window loaded');
+}
+$(mouseEventHandler);
