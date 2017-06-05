@@ -13,6 +13,7 @@ function mouseMove (event) {
         top: event.pageY - windowCenter.top
     };
     console.log(centeredMouse);
+    $('#sideTiger>img').offset(centeredMouse);
 }
 
 
