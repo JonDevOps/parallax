@@ -13,7 +13,9 @@ function mouseMove (event) {
         top: event.pageY - windowCenter.top
     };
     console.log(centeredMouse);
-    $('#sideTiger>img').offset(centeredMouse);
+    $('#sideTiger>img').css(centeredMouse); // .css remembers its initial position from parents like anchor point
+    $('#pika>img').css(centeredMouse);
+    $('#tigerFront>img').css(centeredMouse);
 }
 
 

@@ -1,4 +1,4 @@
-.floating>div {
+.floating>div, .floating>div>img {
     position: absolute;
 }
 #flower {
