@@ -3,22 +3,23 @@
 }
 #flower {
     left:-10vw; /* So it prevents pic to fall off from leftside*/
-    top:-10vw; /* so that top doesn't fall off must be negative */
+    top:-10vh; /* so that top doesn't fall off must be negative */
 }
 #pika {
     left: 25vw;
-    top: 25vw;
+    top: 25vh;
 }
 #sideTiger {
     left: 35vw;
-    top: 25vw;
+    top: 25vh;
 }
 #tigerFront {
     left: 70vw;
-    top: 20vw;
+    top: 20vh;
 }
 #flower>img {
     width: 120vw;
+    height: 120vh;
 }
 #pika>img {
     width: 20vw;
