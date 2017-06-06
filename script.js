@@ -12,23 +12,13 @@ function mouseMove (event) {
         left: event.pageX - windowCenter.left,
         top: event.pageY - windowCenter.top
     };
-    // console.log(centeredMouse);
-    $('#sideTiger>img').css({
-        left: centeredMouse.left / $('#sideTiger>img').data().scale,
-        top: centeredMouse.top / $('#sideTiger>img').data().scale
-    }); // .css remembers its initial position from parents like anchor point
-    $('#pika>img').css({
-        left: centeredMouse.left / $('#pika>img').data().scale,
-        top: centeredMouse.top / $('#pika>img').data().scale
+
+    $('.floating>div>img').each(function( index, element ){
+     $(element).css({
+        left: centeredMouse.left / $(element).data().scale,
+        top: centeredMouse.top / $(element).data().scale
+      });   
     });
-    $('#tigerFront>img').css({
-        left: centeredMouse.left / $('#tigerFront>img').data().scale,
-        top: centeredMouse.top / $('#tigerFront>img').data().scale
-    });
-    $('#flower>img').css({
-        left: centeredMouse.left / $('#flower>img').data().scale,
-        top: centeredMouse.top / $('#flower>img').data().scale
-    }); // this is what is making it move anchor to oiriginal position
 }
 
 
