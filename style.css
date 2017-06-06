@@ -2,8 +2,8 @@
     position: absolute;
 }
 #flower {
-    left:0vw;
-    top:0vw;
+    left:-10vw; /* So it prevents pic to fall off from leftside*/
+    top:-10vw; /* so that top doesn't fall off must be negative */
 }
 #pika {
     left: 25vw;
@@ -18,7 +18,7 @@
     top: 20vw;
 }
 #flower>img {
-    width: 100vw;
+    width: 120vw;
 }
 #pika>img {
     width: 20vw;
