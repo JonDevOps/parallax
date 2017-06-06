@@ -13,9 +13,18 @@ function mouseMove (event) {
         top: event.pageY - windowCenter.top
     };
     // console.log(centeredMouse);
-    $('#sideTiger>img').css(centeredMouse); // .css remembers its initial position from parents like anchor point
-    $('#pika>img').css(centeredMouse);
-    $('#tigerFront>img').css(centeredMouse);
+    $('#sideTiger>img').css({
+        left: centeredMouse.left / $('#sideTiger>img').data().scale,
+        top: centeredMouse.top / $('#sideTiger>img').data().scale
+    }); // .css remembers its initial position from parents like anchor point
+    $('#pika>img').css({
+        left: centeredMouse.left / $('#pika>img').data().scale,
+        top: centeredMouse.top / $('#pika>img').data().scale
+    });
+    $('#tigerFront>img').css({
+        left: centeredMouse.left / $('#tigerFront>img').data().scale,
+        top: centeredMouse.top / $('#tigerFront>img').data().scale
+    });
     $('#flower>img').css({
         left: centeredMouse.left / $('#flower>img').data().scale,
         top: centeredMouse.top / $('#flower>img').data().scale
