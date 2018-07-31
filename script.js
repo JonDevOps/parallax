@@ -24,6 +24,6 @@ function mouseMove (event) {
 
 function windowLoadHandler() {
     console.log('window loaded');
-    $('body').mousemove(mouseMove); // mouseMove function getscalled
+    $('body').mousemove(mouseMove); // mouseMove function gets called
 }
 $(windowLoadHandler);
