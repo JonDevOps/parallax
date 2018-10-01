@@ -1,3 +1,3 @@
 # parallax
 parallax example
-Live demo: http://heggy.me/parallax/
+**[Live demo:](https://heggy231.github.io/parallax/)**
